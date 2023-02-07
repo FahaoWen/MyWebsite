@@ -1,0 +1,111 @@
+nav a:hover {
+    background-color: rgb(80, 255, 255);
+    border-radius: 10%;
+    
+    
+  }
+
+nav a{
+   font-size: larger;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 2em;
+  border: solid;
+  border-radius: 10%;
+  margin-left: 0.4em;
+  margin-right:0.4em ;
+}
+
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,1f);
+    grid-template-rows: repeat(6,1f);
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+    
+}
+
+.icons {
+    grid-column: 1/ span 2;
+    grid-row:1;
+    font-size: 1.5em;
+    padding-left:1.1em;
+}
+
+section{
+    grid-column: 1 / span 2;
+    grid-row: 2/ span 4;
+    text-align: center;
+    
+}
+nav{
+    grid-column: 3/ span 4;
+    grid-row: 1/ span 1;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+.homepic{
+    grid-column: 4/ span 2;
+    grid-row:2/ span 4;
+    text-align: left;
+  
+}
+
+
+.aboutme{
+    grid-column: 3 /span 2;
+    grid-row: 2/span 4; 
+    text-align: center;
+    border: solid;
+    font-size: 1.5em;
+    border-top: none;
+    border-radius: 50%;
+} 
+
+span{
+    font-weight: bold;
+}
+
+a{
+  
+    text-decoration: none;
+    border-bottom: none;
+    color: black;
+
+}
+
+footer {
+
+   grid-column: 1/ span 6;
+   grid-row: 6 /span 1;
+}
+
+*{
+    background-color:#FFD8C5;
+    font-family:cursive;
+   
+}
+
+.aboutme a{
+    border:solid;
+    border-radius: 10%;
+    padding: 0.2em;
+
+}
+
+.aboutme a:hover{
+    background-color: rgb(80, 255, 255);
+    border-radius: 10%;
+}
+
+#col{
+    background-color: aqua;
+}

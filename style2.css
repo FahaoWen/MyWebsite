@@ -1,0 +1,82 @@
+nav a:hover {
+    background-color: rgb(80, 255, 255);
+    border-radius: 10%;
+    
+    
+  }
+
+nav a{
+  font-size: larger;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 2em;
+  border: solid;
+  border-radius: 10%;
+  margin-left: 0.4em;
+  margin-right:0.4em; 
+  color:black;
+ 
+}
+
+nav{
+    text-align: center;
+    font-weight:bold;
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+*{
+    background-color: #FFD8C5;
+    font-family: cursive;
+    text-decoration: none;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,1f);
+    grid-template-rows: repeat(6,1f);
+    margin: auto;
+}
+
+.activity{
+    margin-top: 1em;
+    grid-row: 3 / span 1;
+    text-align: left;
+}
+.lab{
+    margin-top: 1em;
+    grid-column: 2;
+    grid-row: 3;
+    text-align: left;
+}
+
+.project{
+    margin-top: 1em;
+    grid-column:3 / span 1;
+    grid-row: 3;
+    text-align: left;
+}
+
+#col{
+    background-color: aqua;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+hr{
+    border-top: 2px solid black   ;
+    
+}
+
+li a:hover{
+    background-color: rgb(51, 255, 0);
+    border-bottom: solid;
+}
