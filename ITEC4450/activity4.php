@@ -38,8 +38,31 @@
     }else{
         showImage("warm");
     }
+?>
 
+<h2>How to Create Tables with PHP</h2>
 
+<?php
+    $SIZE=8;
+    $alternate=1;
+    echo"<table style='width:20%;margin:auto;'>";
+    for($row=0; $row<$SIZE; $row++){
+        echo"<tr>";
+        
+        for($col=0;$col<$SIZE;$col++){
+            if($col %2 ==$alternate){
+                echo"<td style='background-color:black;'>";
+            }
+            else{
+                echo"<td style = 'background-color: white;'>";
+            }
+            echo"</td>";
+        }
+
+        echo"</tr>";
+    }
+    echo"</table>";
+    
 
 ?>
 
